@@ -1,6 +1,6 @@
 import { AboutSection } from "../components/AboutSection"
-import { ContactSection } from "../Components/ContactSection"
-import { Footer } from "../Components/Footer"
+import { ContactSection } from "../components/ContactSection"
+import { Footer } from "../components/Footer"
 import { HeroSection } from "../components/HeroSection"
 import { Navbar } from "../components/NavBar"
 import { ProjectSection } from "../components/ProjectSection"
