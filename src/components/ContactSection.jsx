@@ -49,7 +49,7 @@ export const ContactSection = () => {
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Mail className="w-6 h-6 text-primary"/>
                                 </div>
-                                <div>
+                                <div className="text-start">
                                     <h4 className="font-medium"> Email</h4>
                                     <a 
                                     href="mailto:akashgaur2526@gmail.com" 
@@ -62,7 +62,7 @@ export const ContactSection = () => {
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Phone className="w-6 h-6 text-primary"/>
                                 </div>
-                                <div>
+                                <div className="text-start">
                                     <h4 className="font-medium"> Phone</h4>
                                     <a 
                                     href="tel:+919667372192" 
@@ -75,7 +75,7 @@ export const ContactSection = () => {
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <MapPin className="w-6 h-6 text-primary"/>
                                 </div>
-                                <div>
+                                <div className="text-start">
                                     <h4 className="font-medium"> Location</h4>
                                     <a className="text-muted-foreground hover:text-primary transition-colors">
                                         Greater Noida, India
@@ -127,6 +127,7 @@ export const ContactSection = () => {
                                     Your Email
                                     
                                 </label>
+
                                 <input 
                                 type="email" 
                                 id="email" 
