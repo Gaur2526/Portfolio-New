@@ -20,11 +20,13 @@ const skills = [
     //databases
     {name : "MongoDB", level : 95, category : "databases"},
     {name : "PostgreSQL", level : 90, category : "databases"},
+    {name : "Supabse", level : 90, category : "databases"},
+    {name : "NeonDB", level : 90, category : "databases"},
 
     //tools 
     {name : "Git & GitHub", level : 90, category : "tools"},
     {name : "Streamlit", level : 90, category : "tools"},
-    {name : "Neon.tech", level : 90, category : "tools"},
+    {name : "Vercel", level : 90, category : "tools"},
     {name : "Docker", level : 70, category : "tools"},
     {name : "JSON & Postman ", level : 90, category : "tools"},
 

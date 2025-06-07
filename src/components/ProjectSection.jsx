@@ -4,12 +4,12 @@ const projects = [
 
     {
         id: 1,
-        title: "Online Food Ordering",
-        description : "A responsive and interactive food ordering website where users can browse items, manage a cart, and complete checkout with ease. It features dynamic updates, smooth animations, and a mobile-friendly design.",
-        image : "./Projects/FoodOrdering.png",
-        tags : ["HTML","CSS","JS","Netlify"],
-        demoUrl : "https://onlinemealordering.netlify.app/",
-        githubUrl : "https://github.com/Gaur2526/Online-Food-Ordering",
+        title: "Social App",
+        description : "This social media app lets users create posts, like and comment on them, and join or create communities to organize content. It supports seamless interaction within communities to foster targeted engagement. The app is built with React and TypeScript on the frontend, uses Supabase with PostgreSQL for the backend, and is deployed on Vercel.",
+        image : "./Projects/SocialApp.png",
+        tags : ["React.js","TypeScript","PostgreSQL","Supabase","vercel"],
+        demoUrl : "https://social-app-amber-three.vercel.app/",
+        githubUrl : "https://github.com/Gaur2526/Social-app",
     },
     {
         id: 2,
@@ -30,6 +30,36 @@ const projects = [
         demoUrl : "https://content-share-lyart.vercel.app/",
         githubUrl : "https://github.com/Gaur2526/Content_Share",
     },
+    {
+        id: 4,
+        title: "Whatsapp Chat Analyzer",
+        description : "WhatsApp Chat Analyzer is a web app that processes exported WhatsApp chat files to provide detailed insights and visualizations. It analyzes metrics such as total messages, word counts, media shared, frequently used words, and chat sentiment. The app helps users understand chat dynamics through interactive charts, word clouds, and activity heatmaps.",
+        image : "./Projects/WhatsappChatAnalyzer.png",
+        tags : ["Python","Streamlit","NLP"],
+        demoUrl : "https://whatsapp-chat-analyzer-akash.streamlit.app/",
+        githubUrl : "https://github.com/Gaur2526/Whatsapp-Chat-Analyzer",
+        
+    },
+    {
+        id: 5,
+        title: "VaultX",
+        description : "VaultX is a secure crypto wallet generation tool that creates Ethereum and Solana-compatible wallets using a 12-word mnemonic seed phrase. It leverages the BIP39 standard to generate and validate the phrases, ensuring compatibility with popular blockchain wallets. The tool offers a simple and private interface to explore deterministic key generation in web3.",
+        image : "./Projects/VaultX.png",
+        tags : ["React.js","TailwindCSS","Bip39","Vercel"],
+        demoUrl : "https://vaultx-chi.vercel.app/",
+        githubUrl : "https://github.com/Gaur2526/VaultX",
+        
+    },
+    {
+        id: 6,
+        title: "Online Food Ordering",
+        description : "A responsive and interactive food ordering website where users can browse items, manage a cart, and complete checkout with ease. It features dynamic updates, smooth animations, and a mobile-friendly design.",
+        image : "./Projects/FoodOrdering.png",
+        tags : ["HTML","CSS","JS","Netlify"],
+        demoUrl : "https://onlinemealordering.netlify.app/",
+        githubUrl : "https://github.com/Gaur2526/Online-Food-Ordering",
+        
+    }
 
 
 ]
